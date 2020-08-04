@@ -189,13 +189,13 @@ function Get-RandomSentence {
     $CurrentListItem = 0
 
     while ($WordCount -le $Words) {
-        $WordLength = 1..$MaxWordLength | Get-Random # -Minimum 1 -Maximum (Get-Random -Minimum ($MaxWordLength - 1) -Maximum $MaxWordLength)
+        $WordLength = 1..$MaxWordLength | Get-Random
 
         # ensure that no 1 or 2 length words are together
         if ($WordLength -in 1,2) {
             $AllWords = $RandomSentence.ToString().Split(' ')
             if ($AllWords[-2].Length -eq 1) {
-                $WordLength = 2..$MaxWordLength | Get-Random # -Minimum 2 -Maximum (Get-Random -Minimum ($MaxWordLength - 1) -Maximum $MaxWordLength)
+                $WordLength = 2..$MaxWordLength | Get-Random
             }
         }
 
@@ -268,7 +268,7 @@ function Get-RandomParagraph {
         [int]$MaxDiacriticsPerSentence = 3
     )
 
-    for ($Sentences = 0; $Sentences -le $SentenceCount; $Sentences++) {
+    $Paragraph = for ($Sentences = 0; $Sentences -le $SentenceCount; $Sentences++) {
 
         $RandomSentenceParams = @{
             Words = 3..$MaxWordsPerSentence | Get-Random -Count 10 | Select-Object -Last 1
@@ -282,4 +282,42 @@ function Get-RandomParagraph {
         Get-RandomSentence @RandomSentenceParams
 
     }
+
+    $Paragraph -join ' '
+
+}
+
+function Get-RandomDocument {
+    [CmdletBinding()]
+    param(
+        [ValidateRange(4,50)]
+        [int]$MaxParagraphs = 20,
+        [ValidateRange(4,50)]
+        [int]$MinParagraphs = 4
+    )
+    if ($MinParagraphs -ge $MaxParagraphs) {
+        $MinParagraphs = $MaxParagraphs - 1
+    }
+
+    $ParagraphsPerDocument= Get-Random -Minimum $MinParagraphs -Maximum $MaxParagraphs
+    $Paragraphs = for ($ParagraphCount = 1; $ParagraphCount -le $ParagraphsPerDocument; $ParagraphCount++) {
+
+        $RandomParagraphParams = @{
+            SentenceCount = Get-Random -Minimum 5 -Maximum 25
+            MaxWordLength = Get-Random -Minimum 3 -Maximum 18
+            MaxWordsPerSentence = Get-Random -Minimum 3 -Maximum 25
+        }
+
+        switch ((Get-RandomPercent)) {
+            {1..30 -contains $_ }   { $RandomParagraphParams.MaxDiacriticsPerSentence = 0 } # 30 % of no diacritics
+            {31..50 -contains $_ }  { $RandomParagraphParams.MaxDiacriticsPerSentence = 1 } # 20 % of 1 diacritics
+            {51..70 -contains $_ }  { $RandomParagraphParams.MaxDiacriticsPerSentence = 2 } # 20 % of 2 diacritics
+            {71..90 -contains $_ }  { $RandomParagraphParams.MaxDiacriticsPerSentence = 3 } # 20 % of 3 diacritics
+            {91..100 -contains $_ } { $RandomParagraphParams.MaxDiacriticsPerSentence = 4 } # 10 % of 4 diacritics
+        }
+
+        Get-RandomParagraph @RandomParagraphParams
+    }
+
+    $Paragraphs -join [System.Environment]::NewLine,[System.Environment]::NewLine
 }
