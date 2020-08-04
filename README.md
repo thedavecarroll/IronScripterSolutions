@@ -28,7 +28,7 @@ Links to these articles are included.
 
 |Date|Name|Solution|
 |-|-|-|
-|2020-07-20|[A PowerShell Nonsense Challenge][20200720]|[Solution](2020-07-20/README.md)|
+|2020-07-20|[A PowerShell Nonsense Challenge][20200720]|[Solution](2020-07-20/)|
 |2020-06-60|[Building a PowerShell Process Tree][20200620]||
 |2020-06-16|[Text Me – A PowerShell Dialer Challenge][20200616]||
 |2020-06-09|[Building a PowerShell Command Inventory][20200609]||
