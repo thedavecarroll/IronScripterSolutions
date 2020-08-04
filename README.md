@@ -18,15 +18,17 @@ The quote below comes from the [introductory post][IronScripter] on the Iron Scr
 
 ## Navigating This Repo
 
-Each challenge will be include a separate folder named for the date and name of the challenge.
+Each challenge will be included a separate folder named for the date.
 Please note that some challenges will be links to my solution gists.
+
 For some challenges, I've written solution walk-throughs on my blog.
+Links to these articles are included.
 
 ## IronScripter Challenges
 
 |Date|Name|Solution|
 |-|-|-|
-|2020-07-20|[A PowerShell Nonsense Challenge][20200720]|[Solution](./A PowerShell Nonsense Challenge/README.md)|
+|2020-07-20|[A PowerShell Nonsense Challenge][20200720]|[Solution](2020-07-20/README.md)|
 |2020-06-60|[Building a PowerShell Process Tree][20200620]||
 |2020-06-16|[Text Me – A PowerShell Dialer Challenge][20200616]||
 |2020-06-09|[Building a PowerShell Command Inventory][20200609]||
