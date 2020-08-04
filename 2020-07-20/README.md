@@ -24,7 +24,7 @@
 
 Instead of generating a character array list and then getting a random sample for each word, I wanted to weight each letter differently (based on sampling of 40000 English words).
 
-### `$CharacterSet`
+### $CharacterSet
 
 This module variable includes the weighted letter array, along with *vowel* and *consonant* ASCII character arrays for both standard alphabet and diacritics.
 
@@ -60,20 +60,20 @@ By dealing with `[char]` type instead of the `[string]` letter, I am able to use
 
 *This may produce strange behavior for some diacritics.*
 
-### `Get-RandomLetter`
+### Get-RandomLetter
 
 - Uses `Get-WeightedCharArray` which generates weighted character array included in `$CharacterSet`
 - Returns diacritic, if requested
 - Returns uppercase, if requested
 
-### `Get-RandomWord`
+### Get-RandomWord
 
 - Uses `Get-RandomLetter`
 - Prevents more than 3 vowels together
 - Can uppercase the initial character
 - Can include additional diacritics
 
-### `Get-RandomSentence`
+### Get-RandomSentence
 
 - Uses `Get-RandomWord`
 - Enforces uppercase on the first word
@@ -81,13 +81,13 @@ By dealing with `[char]` type instead of the `[string]` letter, I am able to use
 - Uses `Get-RandomConjunction` which inserts `and`, `or`, `,`, `;`, or `:` at varying probabilities
 - Ends the sentence with terminating punctuation:  85% period, 8% exclamation point, 7% question mark
 
-### `Get-RandomParagraph`
+### Get-RandomParagraph
 
 - Uses `Get-RandomSentence`
 - 25% chance of a sentence having a conjunction
 - Joins the sentences with a single space.
 
-### `Get-RandomDocument`
+### Get-RandomDocument
 
 - Uses `Get-RandomParagraph`
 - Uses the following defaults:
@@ -101,7 +101,7 @@ By dealing with `[char]` type instead of the `[string]` letter, I am able to use
     - 20 % of 3 diacritics
     - 10 % of 4 diacritics
 
-### `GenerateRandomFiles.ps1`
+### GenerateRandomFiles.ps1
 
 This script saves the results from `Get-RandomDocument` to a randomly named txt file in the `SampleFiles` folder.
 By default, it produces 10 files, but you can change this by providing a different number in the range of 1 and 25.
