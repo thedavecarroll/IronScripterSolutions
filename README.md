@@ -31,7 +31,7 @@ Links to these articles are included.
 |2020-07-20|[A PowerShell Nonsense Challenge][20200720]|[Solution](2020-07-20/)|
 |2020-06-60|[Building a PowerShell Process Tree][20200620]||
 |2020-06-16|[Text Me – A PowerShell Dialer Challenge][20200616]||
-|2020-06-09|[Building a PowerShell Command Inventory][20200609]||
+|2020-06-09|[Building a PowerShell Command Inventory][20200609]|[Articles](2020-06-09/)|
 |2020-05-26|[A PowerShell Object Age Challenge][20200526]||
 |2020-05-11|[A PowerShell Counting Challenge][20200511]||
 |2020-04-30|[A PowerShell Word Play Challenge][20200430]||
