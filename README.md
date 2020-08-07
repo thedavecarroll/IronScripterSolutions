@@ -33,7 +33,7 @@ Links to these articles are included.
 |2020-06-16|[Text Me – A PowerShell Dialer Challenge][20200616]||
 |2020-06-09|[Building a PowerShell Command Inventory][20200609]|[Articles](2020-06-09/)|
 |2020-05-26|[A PowerShell Object Age Challenge][20200526]||
-|2020-05-11|[A PowerShell Counting Challenge][20200511]||
+|2020-05-11|[A PowerShell Counting Challenge][20200511]|[Article](2020-05-11/)|
 |2020-04-30|[A PowerShell Word Play Challenge][20200430]||
 |2020-04-27|[Building a Network Usage PowerShell Monitor][20200427]||
 |2020-04-14|[Pestering for a PowerShell Challenge][20200414]||
