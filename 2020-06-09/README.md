@@ -11,25 +11,15 @@ I produced two commands, `Measure-PSCodeLine` and `Get-PSCodeStructure`.
 
 [PSCommandInventory1]: https://bit.ly/2YCsIv5
 
-### Measure-PSCodeLine
-
-<script src="https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=1-Measure-PSCodeLine.ps1"></script>
-
-### Get-PSCodeStructure
-
-<script src="https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=2-Get-PSCodeStructure.ps1"></script>
++ [Measure-PSCodeLine](https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=1-Measure-PSCodeLine.ps1)
++ [Get-PSCodeStructure](https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=2-Get-PSCodeStructure.ps1)
 
 ## Second Article
 
 In [this article][PSCommandInventory2], I used PowerShell's Abstract Tree Syntax (AST) to solve the main component of the challenge.
 I also used `Measure-Object` instead of iterating each file line-by-line using regex to determine whether to count the line.
 
-### Measure-FileLine
-
-<script src="https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=4-Measure-FileLine.ps1"></script>
-
-### Measure-PSCommand
-
-<script src="https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=3-Measure-PSCommand.ps1"></script>
++ [Measure-FileLine](https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=4-Measure-FileLine.ps1)
++ [Measure-PSCommand](https://gist.github.com/thedavecarroll/bdb519bf474739851ca1e7d2d3faeee6.js?file=3-Measure-PSCommand.ps1)
 
 [PSCommandInventory2]: https://bit.ly/2A5m0FV
