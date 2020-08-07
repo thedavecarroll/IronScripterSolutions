@@ -45,7 +45,7 @@ Links to these articles are included.
 |2019-08-19|[A Windows Feature PowerShell Challenge][20190819]||
 |2019-07-31|[Building More PowerShell][20190731]||
 |2019-07-19|[A PowerShell Scripting Challenge for Everyone][20191719]||
-|2019-07-15|[PowerShell Beginners Have to Start Somewhere][20190715]||
+|2019-07-15|[PowerShell Beginners Have to Start Somewhere][20190715]|[Article](2019-07-15/)|
 |2019-06-28|[A PowerShell Cryptogram][20190628]||
 
 [20200720]: https://ironscripter.us/a-powershell-nonsense-challenge/
