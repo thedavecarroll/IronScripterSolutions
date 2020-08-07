@@ -37,16 +37,16 @@ Links to these articles are included.
 |2020-04-30|[A PowerShell Word Play Challenge][20200430]||
 |2020-04-27|[Building a Network Usage PowerShell Monitor][20200427]||
 |2020-04-14|[Pestering for a PowerShell Challenge][20200414]||
-|2019-12-17|[A PowerShell Challenge for Challenges][20191217]||
+|2019-12-17|[A PowerShell Challenge for Challenges][20191217]|[Gist](https://bit.ly/3ihA5jM)|
 |2019-11-27|[Are You Listening to Me][20191127]||
-|2019-11-15|[A Beginner PowerShell Function Challenge][20191115]||
+|2019-11-15|[A Beginner PowerShell Function Challenge][20191115]|[Gist](https://bit.ly/2DvR7Mv)|
 |2019-10-30|[Raise the Dead with this PowerShell Challenge][20191030]||
-|2019-10-08|[A PowerShell Cross-Platform Challenge][20191008]||
+|2019-10-08|[A PowerShell Cross-Platform Challenge][20191008]|[Gist](https://bit.ly/2XDeo5V)|
 |2019-08-19|[A Windows Feature PowerShell Challenge][20190819]||
 |2019-07-31|[Building More PowerShell][20190731]||
 |2019-07-19|[A PowerShell Scripting Challenge for Everyone][20191719]||
 |2019-07-15|[PowerShell Beginners Have to Start Somewhere][20190715]|[Article](2019-07-15/)|
-|2019-06-28|[A PowerShell Cryptogram][20190628]||
+|2019-06-28|[A PowerShell Cryptogram][20190628]|[Gist](https://bit.ly/3fwmkvP)|
 
 [20200720]: https://ironscripter.us/a-powershell-nonsense-challenge/
 [20200620]: https://ironscripter.us/building-a-powershell-process-tree/
