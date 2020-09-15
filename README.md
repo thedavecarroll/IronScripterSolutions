@@ -28,6 +28,7 @@ Links to these articles are included.
 
 |Date|Name|Solution|
 |-|-|-|
+|2020-08-31|[PowerShell Back-to-School Scripting Challenge][20200831]|[Solution](2020-08-31/)|
 |2020-08-13|[Infrastructure Testing Challenge for PowerShell][20200813]||
 |2020-07-20|[A PowerShell Nonsense Challenge][20200720]|[Solution](2020-07-20/)|
 |2020-06-60|[Building a PowerShell Process Tree][20200620]||
@@ -49,6 +50,7 @@ Links to these articles are included.
 |2019-07-15|[PowerShell Beginners Have to Start Somewhere][20190715]|[Article](2019-07-15/)|
 |2019-06-28|[A PowerShell Cryptogram][20190628]|[Gist](https://bit.ly/3fwmkvP)|
 
+[20200831]: https://ironscripter.us/powershell-back-to-school-scripting-challenge/
 [20200813]: https://ironscripter.us/infrastructure-testing-challenge-for-powershell/
 [20200720]: https://ironscripter.us/a-powershell-nonsense-challenge/
 [20200620]: https://ironscripter.us/building-a-powershell-process-tree/
