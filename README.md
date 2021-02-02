@@ -28,6 +28,13 @@ Links to these articles are included.
 
 |Date|Name|Solution|
 |-|-|-|
+|2021-01-20|[A Memory Reporting Challenge][20210120]||
+|2021-01-05|[A PowerShell Conversion Challenge][20210105]|[Articles](2021-01-05/)|
+|2020-12-03|[A CIM-ple PowerShell Challenge][20201203]||
+|2020-11-16|[A PowerShell Linking Challenge][20201116]||
+|2020-10-29|[A Registered PowerShell Challenge][20201029]||
+|2020-10-07|[A Wide Open PowerShell Challenge][20201007]||
+|2020-09-15|[A PowerShell Session Challenge][20200915]||
 |2020-08-31|[PowerShell Back-to-School Scripting Challenge][20200831]|[Solution](2020-08-31/)|
 |2020-08-13|[Infrastructure Testing Challenge for PowerShell][20200813]||
 |2020-07-20|[A PowerShell Nonsense Challenge][20200720]|[Solution](2020-07-20/)|
@@ -50,6 +57,13 @@ Links to these articles are included.
 |2019-07-15|[PowerShell Beginners Have to Start Somewhere][20190715]|[Article](2019-07-15/)|
 |2019-06-28|[A PowerShell Cryptogram][20190628]|[Gist](https://bit.ly/3fwmkvP)|
 
+[20210120]: https://ironscripter.us/a-memory-reporting-challenge/
+[20210105]: https://ironscripter.us/a-powershell-conversion-challenge/
+[20201203]: https://ironscripter.us/a-cim-ple-powershell-challenge/
+[20201116]: https://ironscripter.us/a-powershell-linking-challenge/
+[20201029]: https://ironscripter.us/a-registered-powershell-challenge/
+[20201007]: https://ironscripter.us/a-wide-open-powershell-challenge/
+[20200915]: https://ironscripter.us/a-powershell-session-challenge/
 [20200831]: https://ironscripter.us/powershell-back-to-school-scripting-challenge/
 [20200813]: https://ironscripter.us/infrastructure-testing-challenge-for-powershell/
 [20200720]: https://ironscripter.us/a-powershell-nonsense-challenge/
