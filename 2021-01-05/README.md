@@ -61,7 +61,7 @@ Personal
 
 ## Part 3
 
-In [part 3][SolutionPart3], I solved 3 personal requirements, which included converting property and class names to PascalCase, detecting property types, and hiding properties.
+In [part 3][SolutionPart3], I solved 2 primary requirements and the remaining of my personal requirements, which included adding class methods and recursive capability to the ConvertTo-ClassDefinition function.
 
 Primary
 
