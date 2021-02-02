@@ -61,4 +61,18 @@ Personal
 
 ## Part 3
 
-Soon...
+In [part 3][SolutionPart3], I solved 3 personal requirements, which included converting property and class names to PascalCase, detecting property types, and hiding properties.
+
+Primary
+
+- [x] Insert placeholder for methods
+- [x] Let the user specify a method
+- [] Be VSCode aware an insert the new class automatically into the current file
+
+Personal
+
+- [x] Contained in a small module, as there will be a few private functions.
+- [x] Should be recursive.
+  - [x] Any object that contains a property which is itself another complex object should generate a separate class definition.
+
+[SolutionPart3]: https://powershell.anovelidea.org/powershell/creating-class-definition-from-object-part-3/
