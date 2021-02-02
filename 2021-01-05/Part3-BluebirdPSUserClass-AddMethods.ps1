@@ -19,10 +19,30 @@ class BluebirdPSUser {
         $this.DefaultProfile = $InputObject.default_profile
     }
 
+    <# original output from ConvertTo-ClassDefinition
+    [OutputTypeName] UpdateProfile (
+        [TypeName]$Param1,
+        [TypeName]$Param2
+    ) {
+        # your code
+        return $Output
+    }
+
+    [OutputTypeName] SetLocation (
+        [TypeName]$Param1,
+        [TypeName]$Param2
+    ) {
+        # your code
+        return $Output
+    }
+    #>
+
+    # update code
     [string] UpdateProfile ( ) {
         return ("Updated Profile for {0}" -f $this.ScreenName)
     }
 
+    # update code
     [bool] SetLocation () {
         return $false
     }
