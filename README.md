@@ -28,6 +28,7 @@ Links to these articles are included.
 
 |Date|Name|Solution|
 |-|-|-|
+|2021-02-09|[Another PowerShell Math Challenge][20210209]|[Gist](http://bit.ly/2Owjgbh)|
 |2021-01-20|[A Memory Reporting Challenge][20210120]||
 |2021-01-05|[A PowerShell Conversion Challenge][20210105]|[Articles](2021-01-05/)|
 |2020-12-03|[A CIM-ple PowerShell Challenge][20201203]||
@@ -57,6 +58,7 @@ Links to these articles are included.
 |2019-07-15|[PowerShell Beginners Have to Start Somewhere][20190715]|[Article](2019-07-15/)|
 |2019-06-28|[A PowerShell Cryptogram][20190628]|[Gist](https://bit.ly/3fwmkvP)|
 
+[20210209]: https://ironscripter.us/another-powershell-math-challenge/
 [20210120]: https://ironscripter.us/a-memory-reporting-challenge/
 [20210105]: https://ironscripter.us/a-powershell-conversion-challenge/
 [20201203]: https://ironscripter.us/a-cim-ple-powershell-challenge/
